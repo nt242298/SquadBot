@@ -1,0 +1,258 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hello",
+        "Hi there",
+        "Hi",
+        "Hey"],
+      "responses": ["Hello! How can I help you today?",
+        "Hi there! Welcome to our toy store. What can I assist you with?"
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell toys. You can visit our catalogue for more info",
+        "We have a variety of toys. Please refer to our catalogue for more info"
+      ]
+    },
+
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+
+    {
+      "tag": "fun",
+      "patterns": [
+        "Tell me a joke",
+        "Tell me something funny",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "What did the left eye say to the right eye? Between you and me, something smells.",
+        "What do you call a fake noodle? An impasta.",
+        "What did the 0 say to the 8? Nice belt!",
+        "What did the shark say when he ate the clownfish? This tastes a little funny."
+      ]
+    },
+
+    {
+      "tag": "how_are_you",
+      "patterns": [ "How are you?",
+        "What's up?", "Are you alright?"],
+      "responses": [
+        "I'm doing well, thank you. How can I help you?",
+        "I'm fine, thanks. How can I assist you today?", "I am good. How can I help?"
+      ]
+    },
+
+    {
+      "tag": "toy_availability",
+      "patterns": ["Do you have the latest Lego set in stock?",
+      "I'm looking for a particular toy. Do you have it in stock?",
+      "Is this toy available for purchase?",
+      "I can't find the toy I'm looking for. Is it out of stock?"
+      ],
+      "responses": [
+       "Let me check our inventory for you. Can you provide me with the name or model number of the Lego set you're looking for?",
+        "I'd be happy to check our inventory for you. Can you provide me with the name or description of the toy you're looking for?",
+        "I can check our inventory for you. Can you provide me with the name or model number of the toy you're interested in?",
+        "I'm sorry, but I'm unable to check our inventory. You can try contacting our customer service team on 023800457 for more information about the availability of a specific toy."
+      ]
+    },
+
+
+    {
+      "tag": "toy_price",
+      "patterns": ["How much does catboy toy cost?",
+      "Is this toy on sale?",
+      "What's the price of catboy toy?"
+      ],
+      "responses": [
+        "The price of catboy toy is $12.",
+      "This toy is currently on sale for $10. Don't miss out on this great deal!",
+      "The price of this catboy toy  $12. Is there anything else you'd like to know?"
+    ]},
+    {
+      "tag": "pj masks toys",
+      "patterns": ["Do you have other PJ Masks toys","Which other pjmasks toys do you have in store?","I would like to know if you have all the pjmasks toys"],
+      "responses": ["Yes, we do have gekko and owlette","We have a number of them like gekko, owlette super ninjas etc.","I can assure you that we have alot of them. Please refer to the catalogue on our website."
+          ]
+    },
+    {
+      "tag": "return policy",
+      "patterns": ["What is your return policy?","Can I return a broken toy","If my kid rejects a toy can i return it?","How long do i have to return unwanted toy?" ],
+      "responses": [
+        "Our return policy is great and flexible. You can return a broken toy within a month of purchase","Return policy: unwanted toys are replaceable within 30days","Return policy: you have a maximum of 30days to return an unwanted toy"
+      ]
+    },
+    {
+      "tag": "toy types",
+      "patterns": ["What types of toys do you have?", "What toy types are available?", "What kind of toys do you have?"],
+      "responses": [
+        "We have numerous types of toys including electronic and mobile toys","We have many types of toys - please refer to the catalogue on our website"
+      ]
+    },
+
+
+    {
+        "tag": "pooltoys",
+        "patterns": ["Do you have pool toys?","How do i get to see pool toys?","I want to order pool toys in bulk"],
+        "responses": [
+          "Pool toys are available on our website.","Please search for pool toys on our website","You can search for pool toys on our wesite"
+        ]
+    },
+
+
+    {
+      "tag": "customer complaints",
+      "patterns": [
+      "I am not satisfied with my order",
+      "The product I received is defective",
+      "I received the wrong item",
+      "The product is damaged"
+      ],
+      "responses": [
+      "We apologize for the inconvenience. Please contact our customer service team at 555-555-5555 or email us at support@toystore.com so we can resolve the issue and make sure you are satisfied with your order.",
+      "Thank you for bringing this to our attention. We will do our best to resolve the issue and make sure you are happy with your purchase."
+      ]
+    },
+
+    {
+      "tag": "customer satisfaction",
+      "patterns": [
+      "I am very happy with my order",
+      "The product is exactly what I wanted",
+      "I received my order quickly and everything was perfect",
+      "Your customer service is excellent"
+      ],
+      "responses": [
+      "We are glad to hear that you are satisfied with your order and our customer service. Thank you for shopping with us!",
+      "We strive to provide the best shopping experience for our customers. We are happy to know that we were able to meet your expectations."
+      ]
+    },
+
+    {
+      "tag": "order enquiry",
+      "patterns": ["I indicated a wrong delivery address","I ordered a wrong toy please assist"],
+      "responses": [
+        "No worries! Please call this number 02385005 to update the details immediately"
+      ]
+    },
+
+    {
+        "tag": "Delivery",
+        "patterns": ["Do you have delivery services?","How much does it cost to deliver to my house?","Can you deliver the toys to my house?"],
+        "responses": ["We have delivery services available, the cost depends on your location. Please refer to the 'Delivery' section on our website for more info.",
+          "We deliver nationwide, the cost depends on your location. Please refer to the 'Delivery' section on our website for more info."
+        ]
+    },
+
+
+    {
+      "tag": "track delivery",
+      "patterns": [
+      "How can I track my order?",
+      "When will my order arrive?",
+      "Where is my order?",
+      "Can you provide me with a tracking number?",
+        "How long will it take to get my order?"
+      ],
+      "responses": [
+      "You can track your order by logging into your account and clicking on the 'Track Order' button. You can also contact our customer service team at 555-555-5555 and provide them with your order number to get an update on the status of your delivery.",
+      "Unfortunately, we are unable to provide the exact delivery dates. However, you can track your order through your account or by contacting our customer service team for an update on the status of your delivery."
+      ]
+    },
+
+    {
+      "tag": "Checkout",
+      "patterns": [
+        "How do I checkout?",
+        "What is the checkout process?",
+        "I'm trying to place an order, how do I do that?",
+        "I'm ready to purchase these items, how do I complete my order?"
+      ],
+      "responses": [
+        "To checkout, add the items you would like to purchase to your shopping cart and click on the cart icon. From there, you can review your order and proceed to checkout. Enter your billing and shipping information and choose a payment method. Review your order one last time and click 'place order' to complete your purchase."
+      ]
+    },
+
+    {
+      "tag": "educational toys",
+      "patterns": [
+        "Do you have any educational toys?",
+        "I'm looking for toys that will help my child learn",
+        "I want to buy a toy that will help my child's development",
+        "What educational toys do you have?"
+      ],
+      "responses": [
+        "Yes, we have a wide selection of educational toys that are designed to help children learn and develop. You can find them by browsing the 'Educational Toys' section on our website.",
+        "We have a variety of educational toys that are perfect for helping children learn"]
+    },
+
+
+    {
+      "tag": "User manual",
+      "patterns": [
+        "Where can I find the user manual?",
+        "How do I use this toy?",
+        "What are the instructions for this toy?",
+        "I need help with assembling this toy"
+      ],
+      "responses": [
+        "You can find the user manual for this toy on the product page on our website. Simply click on the product you are interested in and scroll down to the 'Documents' section. Here you will find a link to the user manual.",
+        "If you need help using or assembling this toy, you can consult the user manual. You can find it on the product page on our website by clicking on the product you are interested in and scrolling down to the 'Documents' section.",
+        "The instructions for using this toy can be found in the user manual. You can access the user manual by going to the product page on our website and scrolling down to the 'Documents' section.",
+        "To assemble this toy, you will need to refer to the user manual. You can find the user manual on the product page on our website. Simply click on the product you are interested in and scroll down to the 'Documents' section.",
+        "The user manual for this toy can be found on the product page or in the packaging. You can also find it by searching for the toy's name and 'user manual' on our website or online. If you are still having trouble, please don't hesitate to contact us for assistance."
+      ]
+    }
+
+
+
+  ]
+}
